@@ -229,7 +229,7 @@ jobs:
           winget install --id AutoHotkey.AutoHotkey  --exact --source winget --accept-source-agreements --accept-package-agreements
 
           python -m pip install --upgrade pip
-          pip install requests requests-toolbelt
+          pip install requests requests-toolbelt tqdm
 
       - name: Download & Configure OBS Scenes & Profiles
         shell: pwsh
